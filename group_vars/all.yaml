@@ -1,9 +1,9 @@
 MONGODB_HOST: mongodb-{{ env }}.sureshdevops.fun # mongodb-dev.daws86s.fun
 REDIS_HOST: redis-{{ env }}.sureshdevops.fun
-CATALOGUE_HOST: catalogue-{{ env }}.sureshdevops.fun
-CART_HOST: cart-{{ env }}.sureshdevops.fun
-USER_HOST: user-{{ env }}.sureshdevops.fun
+CATALOGUE_HOST: catalogue.backend-alb-{{ env }}.sureshdevops.fun
+CART_HOST: cart.backend-alb-{{ env }}.sureshdevops.fun
+USER_HOST: user.backend-alb-{{ env }}.sureshdevops.fun
 RABBITMQ_HOST: rabbitmq-{{ env }}.sureshdevops.fun
 MYSQL_HOST: mysql-{{ env }}.sureshdevops.fun
-SHIPPING_HOST: shipping-{{ env }}.sureshdevops.fun
-PAYMENT_HOST: payment-{{ env }}.sureshdevops.fun
+SHIPPING_HOST: shipping.backend-alb-{{ env }}.sureshdevops.fun
+PAYMENT_HOST: payment.backend-alb-{{ env }}.sureshdevops.fun
